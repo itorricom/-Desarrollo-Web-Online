@@ -29,15 +29,23 @@ h1{
     line-height: 1.5em;
     letter-spacing: -.2px;
     color: white;
-    margin: 100px 500px 70px 30px;
+    /* margin: 100px 500px 70px 30px; */
     /* text-transform: uppercase; */
     /* text-decoration: underline; */
+    margin: 0;
 }
 
 h1 strong {
     color: #026fff;
 }
-
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
 .hero{
     height: 300px;
     background-image: url('../images/hero.jpg');
@@ -45,10 +53,13 @@ h1 strong {
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio{
     background: #fafafa;
+    padding: 20px;
     /* background: red; */
 }
 
@@ -66,13 +77,33 @@ h1 strong {
     border-top-right-radius: 25px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 1px; */
-    margin: 10px;
+    /* margin: 10px; */
     margin-bottom: 15px;
     /* margin-right: 20px;
     margin-left: 25px;
     margin-top: 10px; */
     padding: 20px;
     background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project-course, .project-date, .project-url{
+    margin: 10px 0;
+}
+/* .project-date{
+    margin: 10px 0;
+} */
+.project-description {
+    font-size: 20px;
+}
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+.project-title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .project-details{
@@ -90,7 +121,8 @@ h1 strong {
     color: white;
     display: flex;
     justify-content: space-between;
-    height: 90px;
+    height: 70px;
+    align-items: center;
 }
 
 ol, ul {
@@ -122,15 +154,51 @@ figure {
     padding: 0 10px;
 }
 
-.flexbox{
+.footer{
+    background-color: #1b2127;
+    color: white;
     display: flex;
-    /* flex-wrap: nowrap; */
+    align-items: center;
+    justify-content: space-between;
+}
+.footer img {
+    vertical-align: middle;
+}
+.footer a {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .flexbox{
+    display: flex;
+    flex-wrap: nowrap;
     flex-wrap: wrap;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: center;
 }
 .box{
     width: 200px;
     height: 100px;
     border: 1px solid red;
-}
+} */
